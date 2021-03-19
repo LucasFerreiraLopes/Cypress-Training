@@ -1,2 +1,1 @@
 # Cypress-Training
-# Cypress-Training
