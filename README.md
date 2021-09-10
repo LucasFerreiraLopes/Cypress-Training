@@ -14,3 +14,4 @@ At the end of the project, when I thought that nothing new could come, I was sur
 We used a web application for financial organization to implement our automated tests, the application work with a incomes and expenses, and manually enter the values, after that a total value is calculated, you can check the application in this URL : https://devfinance-agilizei.netlify.app/#.
 
 Running some test cases where we enter the manual values, we identified that we can improve the test time, and how we made that? Well, this is where we make use of the browser's local storage, we created a javascript file to store a function, and in that function we sent a Json file that generates random numbers of incomes and expenses, so we no longer need to use the "Get" command in the field and define what will be typed. This implementation has reduced the time test run by almost 200%.
+
